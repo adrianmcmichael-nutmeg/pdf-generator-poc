@@ -1,5 +1,5 @@
 import ReactPDF from "@react-pdf/renderer";
-import ReportDocument from "../ReportDocument";
+import ReportDocument from "../components/ReportDocument";
 import React from "react";
 
 const renderReport = (message, path) => {
