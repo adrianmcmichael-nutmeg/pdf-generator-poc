@@ -15,7 +15,7 @@ class App extends React.Component {
                <hr/>
                <table>
                    <tr>
-                       <td>Some thing:</td>
+                       <td>Something:</td>
                        <td>3000%</td>
                    </tr>
                    <tr>
