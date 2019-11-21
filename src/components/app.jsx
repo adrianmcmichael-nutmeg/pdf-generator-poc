@@ -9,6 +9,9 @@ class App extends React.Component {
     render() {
         return (
            <Layout>
+               <img src={"http://placekitten.com/200/300"} alt={"kitten!"}/>
+               <img src={"http://placekitten.com/200/300"} alt={"kitten!"}/>
+               <img src={"http://placekitten.com/200/300"} alt={"kitten!"}/>
            </Layout>
         );
     }
