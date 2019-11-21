@@ -1,14 +1,17 @@
 import express from "express";
 import compression from "compression";
-import ssr from "./routes/ssr";
+import page from "./routes/page";
 import report from "./routes/report";
+import path from "path";
 
 const app = express();
 
 app.use(compression());
 app.use(express.static("public"));
+app.set("views", path.join(__dirname, "templates"));
+app.set("view engine", "hbs");
 
-app.use("/firstssr", ssr);
+app.use("/page", page);
 app.use("/report", report);
 
 const port = process.env.PORT || 3030;
