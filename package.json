@@ -10,7 +10,7 @@
     "@react-pdf/renderer": "^1.6.6",
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "handlebars": "^4.5.3",
+    "handlebars": "^4.7.7",
     "hbs": "^4.0.6",
     "isomorphic-unfetch": "^3.0.0",
     "puppeteer": "^2.0.0",
