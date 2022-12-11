@@ -9,7 +9,7 @@
   "dependencies": {
     "@react-pdf/renderer": "^1.6.6",
     "compression": "^1.7.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "handlebars": "^4.5.3",
     "hbs": "^4.0.6",
     "isomorphic-unfetch": "^3.0.0",
